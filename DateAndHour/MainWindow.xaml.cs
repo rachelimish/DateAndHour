@@ -23,8 +23,11 @@ namespace DateAndHour
         public MainWindow()
         {
             InitializeComponent();
-            DateTime currentDateTime = DateTime.Now;
-            DateLabel.Content = currentDateTime.ToString();
+            //DateTime currentDateTime = DateTime.Now;
+            //DateLabel.Content = currentDateTime.ToString();
+            string dateTimeFormat = "ddd MMM dd, yyyy    HH:mm:ss";
+            string currentDateTime = DateTime.Now.ToString(dateTimeFormat);
+            DateLabel.Content = currentDateTime;
 
         }
     }
