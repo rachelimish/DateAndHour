@@ -23,6 +23,9 @@ namespace DateAndHour
         public MainWindow()
         {
             InitializeComponent();
+            DateTime currentDateTime = DateTime.Now;
+            DateLabel.Content = currentDateTime.ToString();
+
         }
     }
 }
