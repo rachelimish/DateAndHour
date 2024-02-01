@@ -22,7 +22,7 @@ namespace DateAndHour
     {
         public MainWindow()
         {
-            int y = 6;
+            int racheli = 6;
             InitializeComponent();
             //DateTime currentDateTime = DateTime.Now;
             //DateLabel.Content = currentDateTime.ToString();
