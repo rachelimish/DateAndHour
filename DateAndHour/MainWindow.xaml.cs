@@ -29,7 +29,7 @@ namespace DateAndHour
             string dateTimeFormat = "ddd MMM dd, yyyy    HH:mm:ss";
             string currentDateTime = DateTime.Now.ToString(dateTimeFormat);
             DateLabel.Content = currentDateTime;
-            int ayala = 5;
+            int illouz = 5;
         }
     }
 }
